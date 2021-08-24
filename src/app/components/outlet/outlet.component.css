@@ -1,0 +1,481 @@
+.h1{
+ color:#517328;
+ font-weight: bold;
+ text-align: center;
+ font-family:'Open Sans', sans-serif;
+}
+.h2{
+    color:#5a3715;
+    font-family:'Open Sans', sans-serif;
+}
+.h3{
+    color:#517328;
+    font-weight: initial;
+    font-family:'Open Sans', sans-serif;
+    font-size:16px;
+
+}
+.h5{
+    color:#517328;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Open Sans', sans-serif;
+    font-size:12px;
+    text-align: center;
+}
+p{
+    font-family:'Open Sans', sans-serif;
+    font-size:14px;
+    color:black;
+
+    }
+
+.containerout{
+    width:80%;
+    height: auto;
+    position: absolute;
+    top:119%;
+    left:10%;
+    right:10%;
+    font-family:'Open Sans', sans-serif;
+    
+ 
+
+
+}
+.top_cont_out{
+    width:auto;
+    height: 1000px;
+    position: absolute;
+    top:0%;
+    left:0%;
+    right:0%;
+  
+    background-image: url(/assets/bloc1-2-1.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: auto;
+    z-index: 7;
+    font-family:'Open Sans', sans-serif;
+
+}
+
+.center_cont_out{
+    width:100%;
+    height:700px;
+    position: absolute;
+    top:940px;
+    left:0%;
+    right:0%;
+    font-family:'Open Sans', sans-serif;
+
+}
+
+.fond1{
+    width:auto;
+    height:25%;
+    background-image: url(/assets/Fond2.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    z-index: 7;
+    top:0px;
+
+}
+.fond2{
+    width:auto;
+    height:32%;
+    background-image: url(/assets/Fond1.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    z-index: 7;
+    top:-15%;
+    position: relative;
+  
+}
+.card-parag a{
+    /*=left:5%;
+    position: absolute;
+    right: 40%;*/
+    color:white;
+    top:100%;
+    background-color:#7ba829;
+    width:200px;
+    height: 40px;
+    border-radius: 20px;
+    padding:7px;
+    text-align: center;
+}
+.react{
+    width:auto;
+    height:70%;
+    background-image: url(/assets/Rectangle8.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    z-index: 7;
+    top:-42%;
+    position: relative;
+    text-align: center;
+
+  
+}
+.react h1 {
+
+    left:40%;
+    position: absolute;
+    right: 40%;
+    top:30%
+}
+.react p {
+    left:35%;
+    position: absolute;
+    right: 30%;
+    color:white;
+    top:40%;
+}
+.react a{
+    left:45%;
+    position: absolute;
+    right: 40%;
+    color:white;
+    top:70%;
+    background-color:#7ba829;
+    width:200px;
+    height: 40px;
+    border-radius: 20px;
+    padding:7px;
+}
+
+.cerclecenter{
+    width:20%;
+    height:20%;
+
+    background-repeat: no-repeat;
+    background-size: cover ;
+    z-index: 7;
+    top:-40%;
+    left:45%;
+    right:40%;
+    
+    
+}
+.bottom_cont_out{
+    width:100%;
+    height: 2200px;
+    position: absolute;
+    top:1780px;
+    left:0%;
+    right:0%;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: auto;
+    z-index: 7;
+   
+
+}
+.card-body {
+    background:#dddddd ;
+  
+   height: 150px;
+    padding:0px;
+}
+.card img{
+    width:300px;
+    height:300px;
+}
+
+.linkprod{
+width:100%;
+height:40px;
+
+border: black;
+background-color:#7ba829 ;
+position: inherit;
+}
+.linkprod a {
+   color:black;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+     bottom: -10px;
+    } 
+
+ .btn-primary{
+     background:#7ba829 ;
+     width: 100%;
+     height:50px;
+     border-color: #7ba829;
+     border-radius:0px;
+     color:black;
+     font-weight: bold;
+     position: relative;
+    
+     bottom: -10px;
+     
+ }   
+ 
+ .btn-primary span{
+  
+    font-weight: bold;
+    position: relative;
+   
+    bottom: -5px;
+    
+}  
+ .card-body img{
+     width:25px;
+     height: 25px;
+ }
+ .card-title{
+    font-size: 18px;
+    font-weight: bold;
+    color:black;
+    padding:5px; 
+    position: relative;
+    text-align: center;
+     bottom: -20px;
+     left: 5px;
+  
+ }
+ .card-title-top{
+ 
+  
+    background-color:#5a3715;
+    width: 120px; 
+    height: 30px;
+    border-radius: 10px;
+    float: right;
+    left: 55%;
+    right: 50%;
+    margin: 20px;
+   position: relative;
+   padding:1px;
+
+} 
+.card-title-top-right{
+
+    width: 30px; 
+    height: 30px;
+    border-radius: 25%;
+    float: right;
+    left: 90%;
+    right: 100%;
+    margin: 20px;
+   position: relative;
+   padding:2px; 
+   float: left;  
+   top:30px;
+}
+.card-title-top-left{
+    background-color:#517328;
+    width: 60px; 
+    height: 30px;
+    border-radius:10px;
+    float: left;
+    left: -25%;
+    right: 150%;
+    margin: 20px;
+   position: relative;
+   padding:1px; 
+   float: left; 
+   text-align: center;
+   top:30px; 
+}
+
+
+.card-title-top span{ 
+    color:white;
+    font-size:12px;
+    text-align: center;
+    align-content: center;
+    padding: 2px;
+   }
+   .card-title-top-left span{ 
+    color:white;
+   
+    text-align: center;
+   
+   }
+
+.card-text{
+    font-size: 25px;
+    font-weight: bold;
+    color:#5a3715;
+    padding: 5px;
+}
+.card-parag{
+    left:25%;
+    position: relative;
+    width: 200px;
+  
+    top:25%
+}
+.spanimg{
+ 
+    background-repeat: no-repeat;
+    background-size: cover ;
+    z-index: 7;
+    width: 18px; 
+    height: 18px;
+    border-radius: 25%;
+    float: left;
+    top:5px;
+    left:5%;
+    right: 0%;
+   position: absolute;
+   padding:1px; 
+   float: left;
+  
+}
+.spanimg img{
+    
+  
+    width: 16px; 
+    height: 16px;
+    border-radius: 25%;
+    float: left;
+  
+   position: absolute;
+   padding:1px; 
+   float: left;
+
+}
+.spantext{
+
+    background-repeat: no-repeat;
+    background-size: cover ;
+    z-index: 7;
+    width: 20px; 
+    height: 20px;
+    border-radius: 25%;
+    top:27%;
+    left:50%;
+    right: 30%;
+   position: absolute;
+   float: left;
+  
+   text-align: center;
+align-content: center;
+color:white;
+
+
+}
+@media only screen and (max-width: 767px) {
+    .containerout{
+        width:100%;
+        height: auto;
+        position: absolute;
+        top:1400px;
+        left:0%;
+        right:0%;
+        font-family:'Open Sans', sans-serif; 
+    }
+    .top_cont_out{
+        width:99%;
+        height:850px;
+        position: relative;
+        top:0%;
+        left:2%;
+        right:0%;
+
+        background-color: white;
+        background-image: none;
+        
+    }
+    .center_cont_out{
+        width:100%;
+        height:750px;
+        position: relative;
+        top:0px;
+        left:2%;
+        right:0%;
+    
+    }
+    .card-title1{
+    height:200px;
+    width: 100vw;
+    left:0%;
+    background-image: url(/assets/bloc1-2-1m.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    position: relative;
+  
+    width: auto;
+    z-index: 7;
+    }
+  
+    .card-title1 h1{
+    padding :50px;
+    }
+    
+.fond1{
+    width:100%;
+    height:25%;
+
+    background-repeat: no-repeat;
+    background-size: cover ;
+    top:0px;
+
+}
+.fond2{
+    width:100%;
+    height:32%;
+
+    background-repeat: no-repeat;
+    background-size: cover ;
+    z-index: 7;
+    top:-15%;
+    position: relative;
+  
+}
+.react{
+    height: 800px;
+    top:-50%;
+}
+.react h1 {
+    width: 80%;
+    left:10%;
+    position: absolute;
+    right: 10%;
+    top:30%
+}
+.react p {
+    left:10%;
+    position: absolute;
+    right: 10%;
+    color:white;
+    top:40%;
+    width: 80%;
+}
+.react a{
+    left:30%;
+    position: absolute;
+    right: 20%;
+    color:white;
+    top:70%;
+    background-color:#7ba829;
+    width:200px;
+    height: 40px;
+    border-radius: 20px;
+    padding:7px;
+}
+
+.cerclecenter img{
+    width:100px;
+    height:100px;
+    top:270%;
+    left:-40%;
+    right:40%;
+    position:absolute;
+    
+    
+}
+.card-parag{
+    left:10%;
+    position: relative;
+    width: 200px;
+  
+    top:5%
+}
+  
+}

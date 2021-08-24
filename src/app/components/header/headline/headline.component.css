@@ -1,0 +1,89 @@
+.headerline_section{
+    width:80%;
+    height:200px;
+    position: absolute;
+    top:0%;
+    left:10%;
+    right:10%;
+
+   
+}
+.logo{
+    width: 200px;
+    height:60px;
+    float:left;
+    left:20%;
+    position: absolute;
+    top:15%;
+
+}
+
+.navtop{
+    position:absolute;
+    right: 400px;
+    display: block;
+
+}
+
+.navbar{
+    position:absolute;
+    right: 400px;
+    top: 1%;
+    right: 20%;
+}
+.tel span{
+    top: 40px;
+    right: 20%;
+    left:-10%;
+    position: absolute;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    position:relative;
+ padding: 5px;
+
+    }
+    .list-group-item{
+        background-color: transparent;
+        padding: auto;
+        width: 30px;
+        position: relative;
+        height: 30px;
+        border: 1px solid transparent;
+        top:-100%;
+        margin-top:0px;
+        left:-22%
+    }
+li span{
+color:#5a3715;
+font-size:15px;
+width: 550px;
+height: 150px;
+position: absolute;
+top:90%;
+left:-60px;
+}
+@media only screen and (max-width: 767px) {
+    .headerline_section{width:100%;height:150px;position: absolute;top:0%;left:0%;right:0%;margin:0px auto; float:none}
+    .logo{float:left;left:30%;position: absolute;top:5%;}
+    .navbar{width:60%;height:100px;position:absolute;left:22.3%;top:10%;right:20%; }
+
+    ul.navbar-nav li a {
+   
+        display: block;
+        color: white;
+        text-align: center;
+      
+        text-decoration: none;
+                      
+        width: 30px;
+        height: 30px;
+     }
+    .tel{visibility: hidden;}
+    .rounded-circle{
+        top:15px;
+        left:500%;
+        position:absolute;
+    }
+}
